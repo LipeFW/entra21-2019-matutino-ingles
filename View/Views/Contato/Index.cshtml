@@ -2,69 +2,70 @@
 @{
     ViewBag.Title = "Contact";
 }
+<body class="image">
 
-
-<div class="row">
-    <div class="col-12">
-        <div class="form-group">
-            <h2></h2>
-        </div>
-    </div>
-</div>
-
-<form method="post" action="/contato/store">
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4 text-center">Contact</h1>
-            <br />
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-
-
-                        @*<label for="campo-nome">Name</label>*@
-                        <input type="text" id="campo-nome" name="name" placeholder="Your Name" class="form-control" />
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        @*<label for="campo-mail">Mail</label>*@
-                        <input type="email" id="campo-mail" name="email" placeholder="Your Mail" class="form-control" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        @*<label for="campo-title">Message Title</label>*@
-                        <input type="text" id="campo-title" name="title" placeholder="Message Title" class="form-control" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        @*<label for="campo-message">Message</label>*@
-                        <textarea id="campo-message" class="form-control" placeholder="Your Message..."></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <button type="submit" class="btn btn-success">Send</button>
-
-                </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="form-group">
+                <h2></h2>
             </div>
         </div>
     </div>
 
+    <form method="post" action="/contato/store">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">Contact</h1>
+                <br />
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+
+
+                            @*<label for="campo-nome">Name</label>*@
+                            <input type="text" id="campo-nome" name="name" placeholder="Your Name" class="form-control" />
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            @*<label for="campo-mail">Mail</label>*@
+                            <input type="email" id="campo-mail" name="email" placeholder="Your Mail" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            @*<label for="campo-title">Message Title</label>*@
+                            <input type="text" id="campo-title" name="title" placeholder="Message Title" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            @*<label for="campo-message">Message</label>*@
+                            <textarea id="campo-message" class="form-control" placeholder="Your Message..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-success">Send</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-</form>
+
+    </form>
+    </body>
